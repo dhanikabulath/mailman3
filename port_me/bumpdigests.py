@@ -51,7 +51,7 @@ def main():
 
     listnames = set(args or config.list_manager.names)
     if not listnames:
-        print(_('Nothing to do.'))
+        print(_('No further steps needed.'))
         sys.exit(0)
 
     for listname in listnames:
